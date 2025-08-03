@@ -10,6 +10,11 @@ class myApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Poppins',
+        textTheme: ThemeData.light().textTheme.apply(fontFamily: 'Poppins')
+        ),
+
       title: "Login To App",
       home: LayoutBuilder(
         builder: (context, constraints) {
