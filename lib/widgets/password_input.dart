@@ -42,7 +42,7 @@ class _password_input extends State<password_input>{
                   fontSize: 15,
                 ),
                 decoration: InputDecoration(
-                  suffixIcon: IconButton(onPressed: () => toggleVisibility(), icon: _obscure_text ? Icon(Icons.visibility, color: Colors.black,) : Icon(Icons.visibility_off, color: Colors.black,)),
+                  suffixIcon: IconButton(onPressed: () => toggleVisibility(), icon: _obscure_text ? Icon(Icons.visibility, color: Colors.blueGrey,) : Icon(Icons.visibility_off, color: Colors.black,)),
                   hintText: text,
                   hintStyle: TextStyle(
                     color: const Color.fromARGB(255, 180, 175, 175),

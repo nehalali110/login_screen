@@ -18,7 +18,7 @@ class myApp extends StatelessWidget{
       title: "Login To App",
       home: LayoutBuilder(
         builder: (context, constraints) {
-          if(constraints.maxWidth < 950){
+          if(constraints.maxWidth < 850){
             return mobile_version();
           } else{
             return desktop_version();

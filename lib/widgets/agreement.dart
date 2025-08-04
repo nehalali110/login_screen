@@ -23,9 +23,9 @@ class _check_Box extends State<check_Box> {
             Set<MaterialState> states,
           ) {
             if (states.contains(MaterialState.disabled)) {
-              return Colors.blueGrey;
+              return Colors.black;
             }
-            return Colors.black;
+            return Colors.blueGrey;
           }),
           value: isChecked,
           onChanged: (value) => toggleCheck(value),
