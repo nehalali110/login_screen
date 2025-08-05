@@ -16,6 +16,8 @@ class _check_Box extends State<check_Box> {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Checkbox(
           checkColor: Colors.white,
